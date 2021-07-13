@@ -173,14 +173,13 @@ Install docker
 Install docker compose
 Clone LEMP repo
 
+#Environment Up & Shell
 sudo service docker start
 docker-compose up -d
 docker-compose down
+docker-compose exec --user www-data php74-fpm bash
 
-instalar: 
-zsh, 
+#Install
+zsh
 omyzsh
 https://docs.docker.com/compose/completion/
-
-guia2
-magento install
