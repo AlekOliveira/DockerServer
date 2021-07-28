@@ -175,7 +175,7 @@ Clone LEMP repo
 
 #Environment Up & Shell
 sudo service docker start
-docker-compose up -d
+docker-compose up -d (LEMP dir)
 docker-compose down
 docker-compose exec --user www-data php74-fpm bash
 
